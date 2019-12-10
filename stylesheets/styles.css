@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(83, 11, 165);
+}
+
+.user-interaction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-frame {
+    height: 150px;
+    width: 150px;
+    background-image: url("../images/fortune-cookie.png");
+    background-size: cover;
+}
+
+.output {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    text-shadow: 2px 2px 8px #FF0000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
